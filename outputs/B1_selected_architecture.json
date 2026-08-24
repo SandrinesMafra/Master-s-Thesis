@@ -1,0 +1,9 @@
+{
+  "architecture_id": "A7",
+  "hidden_units": [
+    16,
+    8
+  ],
+  "n_params": 261,
+  "is_proposed_addition": false
+}
