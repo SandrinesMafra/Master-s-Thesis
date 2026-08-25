@@ -1,0 +1,4 @@
+model,activation,looks_u_shaped,min_at_lambda_norm,finite_diff_violation_rate
+best_overall,relu,false,0.0,0.07718120805369127
+best_relu,relu,false,0.0,0.050335570469798654
+best_non_relu,sigmoid,false,0.0,0.0
