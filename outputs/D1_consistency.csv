@@ -1,0 +1,13 @@
+model,constraint,rate,mean_violation
+baseline,NOx-SOI (MSR),0.0,0.8352367877960205
+baseline,PM-lambda (MSR),0.858,0.0525582954287529
+baseline,HC-lambda (CSR),0.704,0.1129472553730011
+baseline,NOx-PM (TSC),0.547,0.06401624530553818
+baseline,eta-NOx (TSC),0.0,0.4751817584037781
+baseline,non-negativity,0.9095,0.17449329793453217
+PINN,NOx-SOI (MSR),1.0,0.0
+PINN,PM-lambda (MSR),0.874,0.02890850603580475
+PINN,HC-lambda (CSR),1.0,0.0
+PINN,NOx-PM (TSC),1.0,0.0
+PINN,eta-NOx (TSC),1.0,0.0
+PINN,non-negativity,0.9605,0.10035885870456696

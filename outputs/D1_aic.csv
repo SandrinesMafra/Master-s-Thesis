@@ -1,0 +1,3 @@
+model,k_params,AIC
+baseline,261,-228.598388671875
+"PINN (1 member's k, ensemble-mean residuals)",1285,1840.4801025390625
