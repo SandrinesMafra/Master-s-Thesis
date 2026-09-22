@@ -1,0 +1,10 @@
+column,role,description,unit,raw_column_name,source
+SOI,input,Start of injection,degCA bTDC,SOI [o.CA],"Lima Nogueira (2019), Table 3/4/5"
+lambda,input,Excess air ratio (relative air-fuel ratio),-,Lambda [-],"Lima Nogueira (2019), Table 3/4/5"
+sub_rate,input,Diesel substitution rate by natural gas,%,Sub. Rate [%],"Lima Nogueira (2019), Table 3/4/5"
+P_rail,input,Injection (common-rail) pressure,bar,Prail [bar],"Lima Nogueira (2019), Table 3/4/5"
+HC,output,Unburned hydrocarbon emissions,g/kWh,HC [g/kW.h],"Lima Nogueira (2019), Table 3/4/5"
+NOx,output,Nitrogen oxide emissions,ppm,NOX [ppm],"Lima Nogueira (2019), Table 3/4/5"
+CO2,output,Carbon dioxide concentration in exhaust,%,CO2 [%],"Lima Nogueira (2019), Table 3/4/5"
+PM,output,Particulate matter emissions (text calls this PM),FSN,SO_H [FSN],"Lima Nogueira (2019), Table 3/4/5"
+eta,output,Brake thermal efficiency (fraction 0-1; text reports as %),fraction,ETA [%],"Lima Nogueira (2019), Table 3/4/5"
