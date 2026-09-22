@@ -1,0 +1,76 @@
+{
+  "w_data": 1.0,
+  "w_reg_illustration_only": 1e-05,
+  "calibration_mode": "magnitude",
+  "w_final": {
+    "NOx-SOI": 38420.21951952856,
+    "PM-lambda": 29239.49277018339,
+    "HC-lambda": 40479.96124462313,
+    "NOx-PM": 778695.75361121,
+    "eta-NOx": 19975.779627924858,
+    "non-negativity": 27.22808569909419
+  },
+  "w_final_candidates": {
+    "NOx-SOI": {
+      "text_literal": 2813041077.5487638,
+      "hinged_unweighted": 25448832.143982306,
+      "magnitude": 38420.21951952856
+    },
+    "PM-lambda": {
+      "text_literal": 12872563345819.578,
+      "hinged_unweighted": 124695713.03867263,
+      "magnitude": 29239.49277018339
+    },
+    "HC-lambda": {
+      "text_literal": 1573693.2440579857,
+      "hinged_unweighted": 49787.918306338426,
+      "magnitude": 40479.96124462313
+    },
+    "NOx-PM": {
+      "text_literal": 37479061804.99812,
+      "hinged_unweighted": 427188148.52086204,
+      "magnitude": 778695.75361121
+    },
+    "eta-NOx": {
+      "text_literal": 340210895219.8988,
+      "hinged_unweighted": 20053.918452255013,
+      "magnitude": 19975.779627924858
+    },
+    "non-negativity": {
+      "text_literal": 353090606689453.1,
+      "hinged_unweighted": 353090606689453.1,
+      "magnitude": 27.22808569909419
+    }
+  },
+  "k_schedule": 0.01,
+  "t0_schedule": 750,
+  "L_data_init": 353.0906066894531,
+  "L_physics_init": {
+    "NOx-SOI": 1.2551917905057053e-07,
+    "PM-lambda": 2.7429704341219718e-11,
+    "HC-lambda": 0.00022437066945713013,
+    "NOx-PM": 9.421009750099074e-09,
+    "eta-NOx": 1.037858021746274e-09,
+    "non-negativity": 0.0
+  },
+  "L_reg_init": 0.07408563047647476,
+  "c1_config": {
+    "nox_soi_direction": "decreasing",
+    "pm_lambda_direction": "decreasing",
+    "nonneg_floor_norm": {
+      "HC": -0.47802513083638043,
+      "NOx": -1.0027443149683242,
+      "CO2": -2.805276092663743,
+      "PM": -0.10563379630447939
+    },
+    "validity_eff_nox_rule": "clip(-r_local / 0.5, 0, 1)  (signed, Sec. 3.3.2.2)",
+    "local_corr_bandwidth": 0.25,
+    "n_colloc": 1000,
+    "lhs_seed": 42
+  },
+  "architecture_id": "A4",
+  "hidden_units": [
+    16,
+    16
+  ]
+}

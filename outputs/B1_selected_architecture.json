@@ -1,0 +1,30 @@
+{
+  "architecture_id": "A4",
+  "hidden_units": [
+    16,
+    16
+  ],
+  "n_params": 437,
+  "is_proposed_addition": false,
+  "naive_winner": "A11",
+  "selection_rule": "simplest architecture with paired Wilcoxon p > 0.05 vs. the naive winner",
+  "p_value_vs_naive_winner": 0.1353759765625,
+  "output_head": {
+    "emissions": "Dense(4, linear)",
+    "eta": "Dense(1, sigmoid) on the fraction + fixed Rescaling (A3 Section 9)",
+    "eta_min_train": 0.338413208723068,
+    "eta_max_train": 0.388465970754623,
+    "eta_bias_init": -0.5360609062814387
+  },
+  "cv_protocol": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "n_folds": 5,
+    "epochs": 300,
+    "patience": 30,
+    "batch_size": 8
+  }
+}

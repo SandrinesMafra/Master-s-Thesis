@@ -1,0 +1,17 @@
+rank_by_mean_mse,architecture,source,n_params,params_per_train_point,mean_mse,std_mse,mean_r2,std_r2,mean_gap,mean_best_epoch,early_stop_rate,p_value_vs_naive_winner,decision
+1,A11,Table 6,3013,110.8,0.02741,0.02854,0.37018,0.81783,0.0141,206.06666666666666,0.5333333333333333,,"naive winner (lowest mean MSE), replaced by a simpler substitute"
+2,A9,Table 6,709,26.1,0.02829,0.02943,0.50699,0.34252,0.01157,225.26666666666668,0.4,0.6387,"valid substitute, not the simplest"
+3,A8,Table 6,773,28.4,0.02927,0.0343,0.50933,0.34093,0.01214,238.26666666666668,0.26666666666666666,0.4212,"valid substitute, not the simplest"
+4,A6,Table 6,4805,176.7,0.02979,0.03219,0.37631,0.64456,0.01101,183.26666666666668,0.5333333333333333,,not tested (more parameters than the naive winner)
+5,A10,Table 6,2437,89.6,0.03,0.02914,0.32014,0.75659,0.01182,177.66666666666666,0.6,0.0479,rejected (significantly worse than the naive winner)
+6,A16_wide128,proposed,1285,47.2,0.03017,0.03387,0.41679,0.51312,0.0126,194.93333333333334,0.5333333333333333,0.1876,"valid substitute, not the simplest"
+7,A3,Table 6,645,23.7,0.03296,0.0392,0.2905,0.82276,0.0141,215.46666666666667,0.4,0.0637,"valid substitute, not the simplest"
+8,A5,Table 6,1381,50.8,0.0331,0.03675,0.16192,1.3543,0.01379,178.66666666666666,0.5333333333333333,0.1205,"valid substitute, not the simplest"
+9,A12,Table 6,981,36.1,0.0344,0.0499,0.3705,0.63257,0.01665,208.2,0.4,0.2769,"valid substitute, not the simplest"
+10,A4,Table 6,437,16.1,0.03559,0.04583,0.32422,0.67251,0.01991,251.8,0.26666666666666666,0.1354,SELECTED (simplest valid substitute)
+11,A2,Table 6,325,11.9,0.03747,0.04857,0.32969,0.56565,0.01788,249.46666666666667,0.2,0.0413,rejected (significantly worse than the naive winner)
+12,A1,Table 6,165,6.1,0.04231,0.04842,0.28923,0.49589,0.01625,259.93333333333334,0.2,0.0215,rejected (significantly worse than the naive winner)
+13,A7,Table 6,261,9.6,0.04663,0.05035,0.06705,1.15792,0.02434,251.2,0.26666666666666666,0.0067,rejected (significantly worse than the naive winner)
+14,A15_tiny8,proposed,85,3.1,0.05748,0.05432,-0.06993,0.82439,0.02455,286.3333333333333,0.06666666666666667,0.0001,rejected (significantly worse than the naive winner)
+15,A14_tiny4,proposed,45,1.7,0.07853,0.0543,-0.5519,1.28255,0.01561,284.0,0.13333333333333333,0.0001,rejected (significantly worse than the naive winner)
+16,A13_linear,proposed,25,0.9,0.19567,0.16136,-2.4212,1.65601,0.06361,292.4,0.06666666666666667,0.0001,rejected (significantly worse than the naive winner)
